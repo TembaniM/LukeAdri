@@ -12,14 +12,14 @@
 <meta property="og:description" content="Think Bigger"/>
 <meta property="og:url" content="https://www.lukeadri.cf"/>
 <meta property="og:type" content="website" />
-<meta property="og:image" content="https://www.lukeadri.cf/wp-content/uploads/2020/06/Screenshot_20200620-172449_Chrome.jpg"/>
+<meta property="og:image" content="https://www.lukeadri.cf/wp-content/plugins/cmp-coming-soon-maintenance/themes/countdown/img/countdown_banner_large.jpg"/>
 
 <!-- twitter meta -->
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="LukeAdri"/>
 <meta name="twitter:description" content="Think Bigger"/>
 <meta name="twitter:url" content="https://www.lukeadri.cf"/>
-<meta name="twitter:image" content="https://www.lukeadri.cf/wp-content/uploads/2020/06/Screenshot_20200620-172449_Chrome.jpg"/>
+<meta name="twitter:image" content="https://www.lukeadri.cf/wp-content/plugins/cmp-coming-soon-maintenance/themes/countdown/img/countdown_banner_large.jpg"/>
 
 <link rel="stylesheet" href="https://www.lukeadri.cf/wp-content/plugins/cmp-coming-soon-maintenance/themes/countdown/style.css?v=3.7.7" type="text/css" media="all">
 <link rel="stylesheet" href="https://www.lukeadri.cf/wp-content/plugins/cmp-coming-soon-maintenance/css/animate.min.css">
@@ -48,7 +48,7 @@
             .social-list.footer li:not(:last-of-type)::after {background-color: hsl( 0, 0%, 90%);}
             
             .inner-content p {line-height: 1.6; letter-spacing: 0px;font-weight:400;; }
-            h1:not(.text-logo),h2, h3,h4,h5,h6,.text-logo-wrapper {font-size:2.3529411764706em;letter-spacing: 0px;  font-weight:700;; }
+            h1:not(.text-logo),h2, h3,h4,h5,h6,.text-logo-wrapper {font-size:2.5882352941176em;letter-spacing: 0px;  font-weight:700;; }
             h1 { font-weight:700;;}
         </style>
 
@@ -62,6 +62,25 @@
     #gdpr-checkbox {-webkit-appearance: checkbox;-moz-appearance: checkbox;width: initial;height: initial;}
 </style>
 
+    <!-- blur effect -->
+    <style>
+        #background-image,
+        .slide-background,
+        .video-banner {filter:blur(1px);}
+        #background-image,
+        .video-banner,
+        .background-overlay,
+        .slide-background {transform:scale(1.1);}
+        #background-wrapper, #slider-wrapper {overflow:hidden;}
+        #background-image:not(.slide) {background-attachment: initial;}
+    </style>
+
+    <!-- custom logo height -->
+<style>
+    @media screen and (min-width:1024px) {
+    .logo-wrapper img {max-height: 200px}
+    }
+</style>
 
 
     </head>
@@ -70,11 +89,11 @@
 
         
         <div id="background-wrapper">
-             <div id="background-image" class="image" style="background-image:url('https://www.lukeadri.cf/wp-content/uploads/2020/06/Screenshot_20200620-172449_Chrome.jpg')"></div><div class="background-overlay solid-color" style="background-color:#0a0a0a;opacity:0.4"></div>        </div>
+             <div id="background-image" class="image" style="background-image:url('https://www.lukeadri.cf/wp-content/plugins/cmp-coming-soon-maintenance/themes/countdown/img/countdown_banner_full.jpg')"></div><div class="background-overlay solid-color" style="background-color:#0a0a0a;opacity:0"></div>        </div>
 
         <div class="inner-wrap">
             <div class="inner-content">
-                <div class="logo-wrapper text text-logo-wrapper"><a href="https://www.lukeadri.cf" style="text-decoration:none;color:inherit"><h1 class="text-logo">LukeAdri</h1></a></div><h2 class="cmp-title animated ">SOMETHING IS HAPPENING!</h2>    <div id="counter" class="" data-date="1592770733">
+                <div class="logo-wrapper image"><a href="https://www.lukeadri.cf" style="text-decoration:none"><img src="https://www.lukeadri.cf/wp-content/uploads/2020/06/Screenshot_20200620-172449_Chrome-1.jpg" class="graphic-logo" alt="logo"></a></div><h2 class="cmp-title animated ">SITE IS LAUNCHING SOON</h2>    <div id="counter" class="" data-date="1592771154">
         <div class="counter-box">
             <div class="counter-inner">
                 <span id="counter-day" class="counter-number">00</span>
@@ -100,7 +119,11 @@
             </div>
         </div> 
             </div>
-            
+                        <div class="content">             
+                        <p>Developed By Lukewebs</p>
+   
+                    </div>
+                            
         <form id="subscribe-form" method="post" class="cmp-subscribe">
             <div class="cmp-form-inputs">
 
